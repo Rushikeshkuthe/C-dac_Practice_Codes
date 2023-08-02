@@ -1,0 +1,14 @@
+C:\PGDACS\Sunbeam\.Net\day12\LifeOnEartch\obj\Debug\LifeOnEartch.csproj.AssemblyReference.cache
+C:\PGDACS\Sunbeam\.Net\day12\LifeOnEartch\obj\Debug\LifeOnEartch.csproj.SuggestedBindingRedirects.cache
+C:\PGDACS\Sunbeam\.Net\day12\LifeOnEartch\obj\Debug\LifeOnEartch.csproj.CoreCompileInputs.cache
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\bin\Debug\LifeOnEartch.exe.config
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\bin\Debug\LifeOnEartch.exe
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\bin\Debug\LifeOnEartch.pdb
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\bin\Debug\LifeCycle.dll
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\bin\Debug\LifeCycle.pdb
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\obj\Debug\LifeOnEartch.csproj.AssemblyReference.cache
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\obj\Debug\LifeOnEartch.csproj.SuggestedBindingRedirects.cache
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\obj\Debug\LifeOnEartch.csproj.CoreCompileInputs.cache
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\obj\Debug\LifeOnEartch.csproj.CopyComplete
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\obj\Debug\LifeOnEartch.exe
+D:\disk D data\PG-DAC\.Net\day12\LifeOnEartch\obj\Debug\LifeOnEartch.pdb

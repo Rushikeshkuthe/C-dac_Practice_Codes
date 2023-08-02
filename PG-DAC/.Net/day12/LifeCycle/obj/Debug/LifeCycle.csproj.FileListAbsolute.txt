@@ -1,0 +1,12 @@
+C:\PGDACS\Sunbeam\.Net\day12\LifeCycle\bin\Debug\LifeCycle.dll
+C:\PGDACS\Sunbeam\.Net\day12\LifeCycle\bin\Debug\LifeCycle.pdb
+C:\PGDACS\Sunbeam\.Net\day12\LifeCycle\obj\Debug\LifeCycle.csproj.AssemblyReference.cache
+C:\PGDACS\Sunbeam\.Net\day12\LifeCycle\obj\Debug\LifeCycle.csproj.CoreCompileInputs.cache
+C:\PGDACS\Sunbeam\.Net\day12\LifeCycle\obj\Debug\LifeCycle.dll
+C:\PGDACS\Sunbeam\.Net\day12\LifeCycle\obj\Debug\LifeCycle.pdb
+D:\disk D data\PG-DAC\.Net\day12\LifeCycle\bin\Debug\LifeCycle.dll
+D:\disk D data\PG-DAC\.Net\day12\LifeCycle\bin\Debug\LifeCycle.pdb
+D:\disk D data\PG-DAC\.Net\day12\LifeCycle\obj\Debug\LifeCycle.csproj.AssemblyReference.cache
+D:\disk D data\PG-DAC\.Net\day12\LifeCycle\obj\Debug\LifeCycle.csproj.CoreCompileInputs.cache
+D:\disk D data\PG-DAC\.Net\day12\LifeCycle\obj\Debug\LifeCycle.dll
+D:\disk D data\PG-DAC\.Net\day12\LifeCycle\obj\Debug\LifeCycle.pdb

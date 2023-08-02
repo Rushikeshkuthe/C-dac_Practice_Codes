@@ -1,0 +1,6 @@
+C:\PGDACS\Sunbeam\.Net\day6\DNETPune\Arithmatic\bin\Debug\Arithmatic.dll
+C:\PGDACS\Sunbeam\.Net\day6\DNETPune\Arithmatic\bin\Debug\Arithmatic.pdb
+C:\PGDACS\Sunbeam\.Net\day6\DNETPune\Arithmatic\obj\Debug\Arithmatic.csproj.AssemblyReference.cache
+C:\PGDACS\Sunbeam\.Net\day6\DNETPune\Arithmatic\obj\Debug\Arithmatic.csproj.CoreCompileInputs.cache
+C:\PGDACS\Sunbeam\.Net\day6\DNETPune\Arithmatic\obj\Debug\Arithmatic.dll
+C:\PGDACS\Sunbeam\.Net\day6\DNETPune\Arithmatic\obj\Debug\Arithmatic.pdb

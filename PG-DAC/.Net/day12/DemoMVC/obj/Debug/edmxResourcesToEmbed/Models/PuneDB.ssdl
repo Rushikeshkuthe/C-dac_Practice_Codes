@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="punedbModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="punedbModelStoreContainer">
+    <EntitySet Name="Emps" EntityType="punedbModel.Store.Emps" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Emps">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" Nullable="true" MaxLength="50" />
+    <Property Name="Address" Type="varchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+</Schema>
