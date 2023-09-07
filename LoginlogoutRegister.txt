@@ -1,0 +1,156 @@
+Login.js
+
+
+import React, { useState } from 'react';
+
+function Login({ onLogin }) {
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleLogin = () => {
+    // Implement your login logic here (e.g., validate user credentials).
+    // For simplicity, we'll use hard-coded values.
+    if (email === 'user@example.com' && password === 'password') {
+      onLogin();
+    } else {
+      alert('Login failed. Please check your credentials.');
+    }
+  };
+
+  return (
+    <div>
+      <h2>Login</h2>
+      <input
+        type="email"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      <button onClick={handleLogin}>Login</button>
+    </div>
+  );
+}
+
+export default Login;
+
+
+
+
+Register.js
+
+// src/components/Register.js
+import React, { useState } from 'react';
+
+function Register() {
+  // Implement your registration logic here.
+
+  return (
+    <div>
+      <h2>Register</h2>
+      {/* Registration form fields */}
+      {/* Implement registration logic and event handlers */}
+    </div>
+  );
+}
+
+export default Register;
+
+
+
+
+Logout.js
+import React from 'react';
+
+function Logout({ onLogout }) {
+  const handleLogout = () => {
+    onLogout();
+  };
+
+  return (
+    <div>
+      <h2>Logout</h2>
+      <button onClick={handleLogout}>Logout</button>
+    </div>
+  );
+}
+
+export default Logout;
+
+
+
+
+EmployeeList.js
+import React from 'react';
+
+function EmployeeList() {
+  // Hard-coded employee data (in a real app, fetch from a server).
+  const employees = [
+    { id: 1, name: 'John Doe', position: 'Developer' },
+    { id: 2, name: 'Jane Smith', position: 'Designer' },
+    { id: 3, name: 'Bob Johnson', position: 'Manager' },
+  ];
+
+  return (
+    <div>
+      <h2>Employee List</h2>
+      <ul>
+        {employees.map((employee) => (
+          <li key={employee.id}>
+            {employee.name} - {employee.position}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default EmployeeList;
+
+
+
+App.js
+import React, { useState } from 'react';
+import './App.css';
+import Login from './components/Login';
+import Register from './components/Register';
+import Logout from './components/Logout';
+import EmployeeList from './components/EmployeeList';
+
+function App() {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+
+  const handleLogin = () => {
+    setIsLoggedIn(true);
+  };
+
+  const handleLogout = () => {
+    setIsLoggedIn(false);
+  };
+
+  return (
+    <div className="App">
+      <h1>Employee Management</h1>
+      {isLoggedIn ? (
+        <div>
+          <Logout onLogout={handleLogout} />
+          <EmployeeList />
+        </div>
+      ) : (
+        <div>
+          <Login onLogin={handleLogin} />
+          <Register />
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default App;
+
+
